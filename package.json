@@ -5,7 +5,8 @@
   "scripts": {
     "client": "npm start --prefix client",
     "server": "nodemon server.js",
-    "dev": "concurrently \"yarn run server\" \" yarn run client\""
+    "dev": "concurrently \"yarn run server\" \" yarn run client\"",
+    "start": "node server.js"
   },
   "license": "MIT",
   "dependencies": {
